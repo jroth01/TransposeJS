@@ -1,5 +1,5 @@
 # Transpose.js
-A Javascript library for music transposition
+A Javascript library for music transposition with JSON
 
 # Usage
 Transpose.js allows you to create individual notes, scales, and chords as
