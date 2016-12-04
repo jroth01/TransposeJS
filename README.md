@@ -33,8 +33,9 @@ below middle C is therefore C2, and so on.
 ### Shifting Individual Notes
 
     var note = getNote("C");
-    var fifthDown = shiftNote(note, -5);
-
+    var fifthDown = shiftNote(note, -5); // takes in note object and number of semitones (- or +) to shift
+    console.log(fifthDown);
+    
 Output:
 
         {
@@ -106,7 +107,7 @@ By default, you can enter the name of any diatonic mode when you create a scale:
 For example:
 
     var dom = getScale("G", "Dominant");
-    var mix = getScale("G", "Mixolydian"); // same exact object as dom
+    var mix = getScale("G", "Mixolydian"); // same exact object
 
 ### Creating modal scales for each scale degree
 
