@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+   <head>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+      <script type="text/javascript" src="https://download.affectiva.com/js/3.1/affdex.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
+      <script src="transpose.js"></script>
+   </head>
+   <body>
+      <div class="jumbotron text-center">
+         <div class="container">
+            <h1>Transpose.js </h1>
+            <p class="lead">A Javascript library for 
+               music transposition
+            </p>
+         </div>
+      </div>
+      <form>
+         <div class="container">
+         <div class="test"></div>
+         <div class="form-group">
+            <label for="Key">Select Root Note:</label>
+            <select class="form-control" id="Key"></select>
+      </form>
+      <div>
+      <h1 id="keyName"></h1>
+      <table class="table table-striped">
+      <th></th>
+      <th>Root</th>
+      <th>2nd</th>
+      <th>3rd</th>
+      <th>4th</th>
+      <th>5th</th>
+      <th>6th</th>
+      <th>7th</th>
+      <tr>
+      <td><strong>Note name</strong></td>
+      <td id="note0"></td>
+      <td id="note1"></td>
+      <td id="note2"></td>
+      <td id="note3"></td>
+      <td id="note4"></td>
+      <td id="note5"></td>
+      <td id="note6"></td>
+      </tr>
+      <tr>
+      <td><strong>Midi</strong></td>
+      <td id="midi0"></td>
+      <td id="midi1"></td>
+      <td id="midi2"></td>
+      <td id="midi3"></td>
+      <td id="midi4"></td>
+      <td id="midi5"></td>
+      <td id="midi6"></td>
+      </tr>
+      <tr>
+      <td><strong>Octave</strong></td>
+      <td id="oct0"></td>
+      <td id="oct1"></td>
+      <td id="oct2"></td>
+      <td id="oct3"></td>
+      <td id="oct4"></td>
+      <td id="oct5"></td>
+      <td id="oct6"></td>
+      </tr>
+      <table>
+      </div>
+      </div>
+   </body>
+</html>
