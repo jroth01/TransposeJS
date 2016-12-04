@@ -22,8 +22,6 @@ Output:
 
 By default, notes are initialized in the middle octave from C3 to B3.
 
-### MIDI Octave Numbering
-
 Transpose.js follows the octave numbering convention for computer music
 in which C3 = the MIDI note 60. 
 
