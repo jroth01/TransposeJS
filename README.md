@@ -1,13 +1,15 @@
 # Transpose.js
-A Javascript library for music transposition with JSON
+A Javascript library for music transposition using simple JSON objects.
 
 # Usage
-Transpose.js allows you to create individual notes, scales, and chords as
-simple JSON objects.
+Transpose.js allows you to create and edit individual notes, scales, and chords as JSON.
+
+If you're trying to make a music based web app in the browser, Transpose.js
+gives the data you need quickly in a simple format. 
 
 ### Creating Individual Note Objects
 
-Notes are contain information about note name, midi note number, and octave. 
+Notes are contain information about note name, MIDI note number, and octave. 
 
     var note = getNote("C");
     console.log(note)
@@ -26,7 +28,7 @@ Transpose.js follows the octave numbering convention for computer music
 in which C3 = the MIDI note 60. 
 
 In this convention, MIDI octave numbers range from from -2 to 8. An octave
-below middle C is therefore denoted as C2.
+below middle C is therefore C2, and so on.
 
 ### Shifting Individual Notes
 
